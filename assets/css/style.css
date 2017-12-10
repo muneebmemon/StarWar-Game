@@ -1,0 +1,57 @@
+body{
+	background-image: url("../images/starwarbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.mainHeading{
+	font-family: inherit;
+	font-size: 40px;
+	color: orange;
+	text-align: center;
+	margin: 5px;
+}
+
+.chrStyle{
+	border: 2px solid green;
+	background-color: #fff;
+}
+
+.yourChrStyle{
+	border: 2px solid green;
+	background-color: #fff;
+}
+
+.enemiesStyle{
+	border: 2px solid orange;
+	background-color: #600;
+	color: #fff;
+}
+
+.defenderStyle{
+	border: 2px solid #fff;
+	background-color: #000;
+	color: #fff;
+}
+
+h5{
+	font-size: 15px;
+	font-family: inherit;
+	text-align: center;
+	margin:2px;
+}
+
+
+h3{
+	font-size: 22px;
+	font-family: inherit;
+	text-align: left;
+	margin-top: 12px;
+	color:yellow;
+}
+
+
+img{
+	display: inline-block;
+}
