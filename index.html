@@ -19,16 +19,18 @@
 			</div>
 		</div>
 
+		<!-- This is where player's selected character will be displayed -->
 		<div class="row" id="yourCharacter">
 			
 		</div>	
 		
 		<div class="row" id="enemiesAvailableHeading">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h3>Enemies Avaiable to Attack</h3>
+				<h3>Enemies Available to Attack</h3>
 			</div>
 		</div>
 
+		<!-- This is where enemies still available to fight with player's character will be displayed -->
 		<div class="row" id="enemiesAvailable">
 			
 		</div>
@@ -38,10 +40,14 @@
 				<h3>Fight Section</h3>
 			</div>
 		</div>
-
+		
 		<div class="row" id="fightSection">
 			<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
 				<button type="button" class="btn btn-danger" id="attackButton">Attack</button>
+			</div>
+
+			<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+				<button type="button" class="btn btn-primary resButton" id="restartButton">Restart</button>
 			</div>
 		</div>
 
@@ -50,11 +56,26 @@
 				<h3>Defender</h3>
 			</div>
 		</div>
-
+		
+		<!-- This is where defender currently fighting with player's selected characeter will be displayed -->
 		<div class="row" id="defender">
 			
 		</div>
+		
+		<div class="row">
 
+			<!-- This is where attack status will be displayed -->
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 attackStatus" id="attackSumm">
+				<p>You attacked <span class="myDefender"></span> for <span id=defDamage></span> damage.</p>
+				<p><span class="myDefender"></span> attacked you back for <span id=atkDamage></span> damage.</p>
+			</div>
+
+			<!-- This is where Game result will be displayed -->
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 attackStatus" id="gameOverStatus">
+				<h2 id="gameOverStatusHeading" class="h2Style"></h2>
+			</div>
+
+		</div>
 	</div>
 </body>
 </html>

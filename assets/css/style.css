@@ -5,21 +5,27 @@ body{
 	font-family: 'Luckiest Guy', cursive;
 }
 
+#defender{
+	margin-bottom: 10px;
+}
+
 .mainHeading{
 	font-family: inherit;
 	font-size: 40px;
-	color: orange;
+	color: #fa0;
 	text-align: center;
-	margin: 5px;
+	margin: 3px 0px;
+	word-spacing: 6px;
+	letter-spacing: 3.5px;
 }
 
 .chrStyle{
-	border: 2px solid green;
+	border: 2px solid blue;
 	background-color: #fff;
 }
 
 .yourChrStyle{
-	border: 2px solid green;
+	border: 2px solid blue;
 	background-color: #fff;
 }
 
@@ -35,6 +41,27 @@ body{
 	color: #fff;
 }
 
+.resButton{
+	display:none;
+}
+
+.attackStatus{
+	display: none;
+}
+
+.attackStatusDisp{
+	display: block;
+}
+
+p{
+	font-family: inherit;
+	font-size: 14px;
+	color: orange;
+	letter-spacing: 2px;
+	word-spacing: 3.5px ;
+
+}
+
 h5{
 	font-size: 15px;
 	font-family: inherit;
@@ -42,15 +69,24 @@ h5{
 	margin:2px;
 }
 
-
 h3{
 	font-size: 22px;
 	font-family: inherit;
 	text-align: left;
 	margin-top: 12px;
 	color:yellow;
+	letter-spacing: 2px;
+	word-spacing: 4.5px;
+	text-shadow: 2px 2px green;
 }
 
+.h2Style{
+	font-size: 40px;
+	font-family: inherit;
+	text-align: left;
+	margin-top: 12px;
+	color: green;
+}
 
 img{
 	display: inline-block;
