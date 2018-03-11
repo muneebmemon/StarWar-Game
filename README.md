@@ -9,3 +9,5 @@ This is the Star War Game where player have to select One character and other 3 
 - CSS
 - BootStrap
 - Google Fonts
+
+![Alt text](/assets/images/starwarpf.png?raw=true)
